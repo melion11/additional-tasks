@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Tasks from "./components/Tasks";
+import Tasks, {DataPropsType} from "./components/Tasks";
 
 
 // Hi Guys!
@@ -126,7 +126,7 @@ function App() {
 
     return (
         <div className="App">
-            <Tasks/>
+            <Tasks data={data1}/>
         </div>
     );
 }

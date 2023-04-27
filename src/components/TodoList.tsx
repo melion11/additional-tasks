@@ -12,6 +12,9 @@ export type TaskType = {
 }
 
 const TodoList = (props: TodoListPropsType) => {
+
+
+
     return (
         <div className='todoList'>
             <h3>{props.title}</h3>

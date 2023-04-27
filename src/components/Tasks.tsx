@@ -1,11 +1,24 @@
 import React from "react";
 
+export type TaskType = {
+    taskId: number
+    title: string
+    isDone: boolean
+}
+
+export type DataPropsType = {
+    title: string
+    tasks: TaskType[]
+    students: string[]
+}
 
 
 
-const Tasks = (props: any) => {
+
+
+const Tasks = (props: DataPropsType) => {
     return (
-        <div>Hello</div>
+        <div>{props.tasks[0].title}</div>
     );
 }
 
