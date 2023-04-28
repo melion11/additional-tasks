@@ -23,7 +23,6 @@ const Tasks = (props: TasksPropsType) => {
             <li>
                 <span>{elem}</span>
             </li>
-
         );
     })
 
